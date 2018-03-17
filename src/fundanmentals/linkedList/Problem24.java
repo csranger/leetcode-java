@@ -5,7 +5,7 @@ package fundanmentals.linkedList;
  */
 
 public class Problem24 {
-    // 方法1
+    // 方法1 constant space
     public ListNode swapPairs(ListNode head) {
         ListNode sentinel = new ListNode(0);
         sentinel.next = head;
